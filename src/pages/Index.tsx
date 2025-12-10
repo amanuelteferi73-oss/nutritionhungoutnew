@@ -6,9 +6,11 @@ import { About } from "@/components/About";
 import { Menu } from "@/components/Menu";
 import { Gallery } from "@/components/Gallery";
 import { Reviews } from "@/components/Reviews";
+import { Questionnaire } from "@/components/Questionnaire";
 import { Contact } from "@/components/Contact";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,12 +26,34 @@ const Index = () => {
         <Header />
         <main>
           <Hero />
-          <About />
-          <Menu />
-          <Gallery />
-          <Reviews />
-          <Contact />
-          <FAQ />
+          
+          <ScrollReveal pour>
+            <About />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <Menu />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <Gallery />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <Reviews />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <Questionnaire />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <Contact />
+          </ScrollReveal>
+          
+          <ScrollReveal pour delay={50}>
+            <FAQ />
+          </ScrollReveal>
         </main>
         <Footer />
       </div>

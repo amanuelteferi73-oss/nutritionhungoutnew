@@ -1,6 +1,5 @@
 import { Heart, Users, Leaf, Award } from "lucide-react";
 import ownerImage from "@/assets/owner.png";
-import interiorImage from "@/assets/gallery-interior.png";
 
 const features = [
   {
@@ -40,37 +39,9 @@ export function About() {
           </p>
         </div>
 
-        {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          {/* Image Side */}
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-tropical">
-              <img
-                src={interiorImage}
-                alt="The Nutrition Hangout interior with teal bar stools and tropical decor"
-                className="w-full h-auto object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
-            </div>
-            
-            {/* Floating Card */}
-            <div className="absolute -bottom-6 -right-6 glass rounded-xl p-4 shadow-lg max-w-xs hidden md:block">
-              <div className="flex items-center gap-3">
-                <img
-                  src={ownerImage}
-                  alt="Owner of The Nutrition Hangout"
-                  className="w-16 h-16 rounded-full object-cover border-2 border-primary"
-                />
-                <div>
-                  <p className="font-medium text-sm">Sebastian & Brianna</p>
-                  <p className="text-xs text-muted-foreground">Founders & Owners</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Text Side */}
-          <div className="space-y-6">
+        {/* Main Content - Text centered with owner card */}
+        <div className="max-w-3xl mx-auto mb-20">
+          <div className="space-y-6 text-center">
             <h3 className="text-2xl md:text-3xl font-serif font-semibold">
               More Than Just Smoothies — It's a Lifestyle
             </h3>
@@ -87,15 +58,25 @@ export function About() {
               treating yourself after a long day, we've got something delicious for you.
             </p>
 
-            <div className="pt-4">
-              <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/80">
-                "We created a space where everyone can enjoy delicious, nutritious treats 
-                in a welcoming tropical atmosphere."
-                <footer className="mt-2 text-sm text-muted-foreground not-italic">
-                  — Sebastian Tropea & Brianna Alleman, Owners
-                  <span className="block text-xs mt-1">(UNVERIFIED — names from directory listings)</span>
-                </footer>
-              </blockquote>
+            {/* Owner Card - Centered */}
+            <div className="flex justify-center pt-6">
+              <div className="glass rounded-xl p-6 max-w-sm">
+                <div className="flex items-center gap-4">
+                  <img
+                    src={ownerImage}
+                    alt="Sebastian Tropea, Owner of The Nutrition Hangout"
+                    className="w-20 h-20 rounded-full object-cover border-2 border-primary"
+                  />
+                  <div className="text-left">
+                    <p className="font-semibold text-lg">Sebastian Tropea</p>
+                    <p className="text-sm text-primary">Founder & Owner</p>
+                  </div>
+                </div>
+                <blockquote className="mt-4 text-sm text-muted-foreground italic border-l-2 border-primary pl-4">
+                  "We created a space where everyone can enjoy delicious, nutritious treats 
+                  in a welcoming tropical atmosphere."
+                </blockquote>
+              </div>
             </div>
           </div>
         </div>

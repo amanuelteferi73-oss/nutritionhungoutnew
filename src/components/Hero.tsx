@@ -1,19 +1,41 @@
+import { useState, useEffect } from "react";
 import { MessageCircle, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero.png";
 
 export function Hero() {
+  const [isDarkened, setIsDarkened] = useState(false);
+
+  useEffect(() => {
+    // Start bright, then darken after 4 seconds
+    const timer = setTimeout(() => {
+      setIsDarkened(true);
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Animated Overlay */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="The Nutrition Hangout storefront ribbon cutting ceremony"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-bottom"
         />
-        <div className="absolute inset-0 bg-background/85" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+        {/* Animated overlay - starts light, gets darker */}
+        <div 
+          className={`absolute inset-0 transition-all duration-[2000ms] ease-in-out ${
+            isDarkened ? "bg-background/85" : "bg-background/40"
+          }`} 
+        />
+        <div 
+          className={`absolute inset-0 transition-all duration-[2000ms] ease-in-out ${
+            isDarkened 
+              ? "bg-gradient-to-t from-background via-background/50 to-transparent" 
+              : "bg-gradient-to-t from-background/60 via-transparent to-transparent"
+          }`} 
+        />
       </div>
 
       {/* Content */}
@@ -24,7 +46,7 @@ export function Hero() {
             <span className="text-primary">Fuel Your Day</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-foreground/80 mb-2 animate-fade-in-up stagger-1 font-light tracking-wide">
+          <p className="text-xl md:text-2xl text-foreground/90 mb-2 animate-fade-in-up stagger-1 font-light tracking-wide">
             Smoothies • Loaded Teas • Protein Snacks
           </p>
           
@@ -35,13 +57,13 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-14 animate-fade-in-up stagger-3">
             <a href="sms:+14092097696">
-              <Button size="lg" className="w-full sm:w-auto gap-2 text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]">
+              <Button size="lg" className="w-full sm:w-auto gap-2 text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300">
                 <MessageCircle className="h-5 w-5" />
                 Text to Order
               </Button>
             </a>
             <a href="#menu">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg px-8 py-6 border-primary/50 hover:bg-primary/10 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg px-8 py-6 border-primary/50 hover:bg-primary/10 transition-all duration-300">
                 See Menu
               </Button>
             </a>
