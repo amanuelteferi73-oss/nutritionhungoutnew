@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://amanuelteferi73-oss.github.io/nutritionhungoutnew",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
