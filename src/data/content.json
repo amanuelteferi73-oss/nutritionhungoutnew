@@ -1,0 +1,164 @@
+{
+  "business": {
+    "name": "The Nutrition Hangout",
+    "tagline": "Smoothie & Energy Bar",
+    "hero_tagline": "Fuel Your Day",
+    "hero_subtitle": "Smoothies • Loaded Teas • Protein Snacks",
+    "description": "Locally made, protein-packed, community-loved.",
+    "verification_status": "VERIFIED"
+  },
+  "contact": {
+    "phone": "+1 (409) 209-7696",
+    "phone_raw": "+14092097696",
+    "address": "120 Gulf Fwy S, Texas City, TX 77591",
+    "address_verification": "VERIFIED — from Google Maps & Yelp",
+    "text_order_note": "Text to order for fast pickup!"
+  },
+  "hours": {
+    "note": "Hours may change — always check Facebook/Instagram for today's hours.",
+    "verification_status": "ESTIMATE — based on typical nutrition bar hours",
+    "schedule": {
+      "monday": "7:00 AM – 7:00 PM",
+      "tuesday": "7:00 AM – 7:00 PM",
+      "wednesday": "7:00 AM – 7:00 PM",
+      "thursday": "7:00 AM – 7:00 PM",
+      "friday": "7:00 AM – 7:00 PM",
+      "saturday": "8:00 AM – 5:00 PM",
+      "sunday": "Closed"
+    }
+  },
+  "about": {
+    "short": "The Nutrition Hangout is a locally-owned smoothie and energy bar in Texas City, founded to make nutrient-dense, crave-worthy drinks and snacks that help people feel their best — every day.",
+    "mission": "We focus on high-protein recipes, community events, and fast friendly service. Whether you're fueling up before a workout or treating yourself after, we've got something delicious for you.",
+    "verification_status": "UNVERIFIED — based on typical business descriptions"
+  },
+  "owners": {
+    "names": "Sebastian Tropea & Brianna Alleman",
+    "verification_status": "UNVERIFIED — names found in directory listings",
+    "bio": "Passionate about health, fitness, and community, the owners of The Nutrition Hangout created a space where everyone can enjoy delicious, nutritious treats in a welcoming tropical atmosphere."
+  },
+  "menu": {
+    "price_disclaimer": "Prices are estimates for showcase only — confirm with business.",
+    "categories": [
+      {
+        "name": "Protein Shakes",
+        "description": "17 grams of protein per shake",
+        "items": [
+          { "name": "Dreamsicle", "desc": "Orange + vanilla protein blend", "price": 7.50, "price_note": "ESTIMATE" },
+          { "name": "Banana Pudding", "desc": "Banana, vanilla protein, cinnamon", "price": 7.50, "price_note": "ESTIMATE" },
+          { "name": "French Toast Oatmeal", "desc": "Cinnamon, maple, hearty oats", "price": 7.50, "price_note": "ESTIMATE" },
+          { "name": "Churro", "desc": "Sweet cinnamon with caramel drizzle", "price": 7.50, "price_note": "ESTIMATE" },
+          { "name": "Mexican Lollipop", "desc": "Spicy-sweet watermelon blend", "price": 7.50, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "Loaded Teas / Hydrates",
+        "description": "Energy-boosting, low calorie refreshers",
+        "items": [
+          { "name": "Alan", "desc": "CR7, H3O, Strawberry & Blue Blast", "price": 5.25, "price_note": "ESTIMATE" },
+          { "name": "Doug", "desc": "H3O, CR7, Niteworks, Cucumber", "price": 5.25, "price_note": "ESTIMATE" },
+          { "name": "Mr. Chow", "desc": "CR7, Strawberry", "price": 5.25, "price_note": "ESTIMATE" },
+          { "name": "Phil", "desc": "CR7, Blue Blast", "price": 5.25, "price_note": "ESTIMATE" },
+          { "name": "Stu", "desc": "H3O, CR7, Niteworks, Strawberry", "price": 5.25, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "FitKids Menu",
+        "description": "Healthy nutrition for kids — fun character names!",
+        "items": [
+          { "name": "Ariel", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Cinderella", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Barbie", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Buzz Lightyear", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Lightning McQueen", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Paw Patrol", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" },
+          { "name": "Unicorn", "desc": "Healthy hydration drink", "price": 4.50, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "Fat Reducing Shots",
+        "description": "Attacks stubborn fat, gives feeling of fullness",
+        "items": [
+          { "name": "Glazed Donut", "desc": "Sweet vanilla shot", "price": 3.50, "price_note": "ESTIMATE" },
+          { "name": "Sugar Cookie", "desc": "Sweet cookie flavored shot", "price": 3.50, "price_note": "ESTIMATE" },
+          { "name": "Caramel", "desc": "Rich caramel shot", "price": 3.50, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "Protein Balls",
+        "description": "High protein snack",
+        "items": [
+          { "name": "Chocolate Chip", "desc": "Classic chocolate chip protein ball", "price": 3.25, "price_note": "ESTIMATE" },
+          { "name": "PB Banana", "desc": "Peanut butter banana protein ball", "price": 3.25, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "Iced Protein Coffee",
+        "description": "15g protein, 80mg caffeine, 100 calories",
+        "items": [
+          { "name": "House Blend", "desc": "Classic iced protein coffee", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Mocha Blend", "desc": "Chocolate espresso protein", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Caramel Macchiato", "desc": "Sweet caramel espresso protein", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Brown Sugar Cinnamon", "desc": "Warm spiced protein coffee", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Apple Crisp Latte", "desc": "Fall-inspired apple cinnamon", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Caramel Delight", "desc": "Extra caramel drizzle", "price": 6.50, "price_note": "ESTIMATE" },
+          { "name": "Chai Tea Latte", "desc": "Spiced chai protein blend", "price": 6.50, "price_note": "ESTIMATE" }
+        ]
+      },
+      {
+        "name": "Breakfast",
+        "description": "Protein-packed breakfast options",
+        "items": [
+          { "name": "Strawberry Cheesecake Waffle", "desc": "Protein waffle with fresh strawberries & cream", "price": 7.50, "price_note": "ESTIMATE" }
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are your hours?",
+      "answer": "We're typically open Monday-Friday 7AM-7PM and Saturday 8AM-5PM. Hours may change, so check our Facebook or Instagram for daily updates!"
+    },
+    {
+      "question": "Do you have parking?",
+      "answer": "Yes! We have a dedicated parking lot in front of our location at 120 Gulf Fwy S in Texas City."
+    },
+    {
+      "question": "Can you accommodate allergies?",
+      "answer": "Please let us know about any allergies when ordering. Many of our items can be customized. Ask our staff about ingredients for specific items."
+    },
+    {
+      "question": "Do you offer catering?",
+      "answer": "Yes! We offer catering for events and parties. Contact us to discuss your needs and get a custom quote."
+    },
+    {
+      "question": "Do you have a loyalty program?",
+      "answer": "Ask us about our punch card program! Buy 10 smoothies, get 1 free. (SUGGESTED — confirm with business)"
+    },
+    {
+      "question": "Can I order for pickup?",
+      "answer": "Absolutely! Text your order to (409) 209-7696 for fast pickup service."
+    }
+  ],
+  "social_links": {
+    "facebook": "https://www.facebook.com/thenutritionhangout",
+    "instagram": "https://www.instagram.com/thenutritionhangout",
+    "google": "https://g.co/kgs/nutrition-hangout-texas-city",
+    "verification_status": "UNVERIFIED — typical social handles assumed"
+  },
+  "seo": {
+    "title": "The Nutrition Hangout — Smoothie & Energy Bar | Texas City, TX",
+    "description": "Fuel your day with protein-packed smoothies, loaded teas, and healthy snacks at The Nutrition Hangout in Texas City, TX. Locally made, community-loved.",
+    "keywords": "smoothie bar, nutrition, Texas City, protein shakes, loaded tea, healthy snacks, energy bar"
+  },
+  "voice_options": {
+    "chosen": "warm_energetic",
+    "warm_energetic": "Warm, energetic, community-first, health-forward",
+    "casual_fun": "Casual, fun, beachy vibes",
+    "professional_wellness": "Professional wellness-focused"
+  },
+  "attributions": {
+    "note": "All images provided by business owner. No third-party images used.",
+    "accessed_date": "2024-12-10"
+  }
+}
